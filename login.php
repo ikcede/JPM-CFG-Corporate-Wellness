@@ -15,15 +15,8 @@ include_once("views/header.tpl.php");
             <label class="checkbox">
               <input type="checkbox" value="remember-me"> Remember me
             </label>
-            <button class="btn btn-primary" type="submit">Sign in</button>
+            <button id="login-submit" class="btn btn-primary" type="submit">Sign in</button>
           </form>
-        <?php
-            
-            $hostName= "localhost";
-            $dbName="Calorie_Cloud";
-            $data = new PDO("mysql:host=$hostName; dbname=$dbName", "root", "bitnami");
-            
-        ?>
         
         </div>
     </div><!-- /container -->

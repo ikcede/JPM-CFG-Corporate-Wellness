@@ -1,6 +1,7 @@
 <?php
 include_once("views/globals.tpl.php");
 include_once("views/header.tpl.php");
+
 ?>
   <body>
   
@@ -21,7 +22,7 @@ include_once("views/header.tpl.php");
             </thead>
             <tbody>
               <tr class="success">
-                <td><center>Run Keeper</center></td>
+                <td><center><img src="img/runkeeper.png" alt="runkeeper" height="25" width="25">Run Keeper</center></td>
                 <td><center> Connected</center></td>
               </tr>
               <tr >

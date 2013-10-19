@@ -1,13 +1,7 @@
-<?php
-include_once("views/globals.tpl.php");
-include_once("views/header.tpl.php");
-?>
-  <body>
-    <?php include_once("views/menu.tpl.php"); ?>
-    <br>
+<div class="page" content="global">
     <div class="container" >
         <div class="jumbotron">
-            <div id="total-calories"><span id="amount">44800</span> Cals</div>
+            <div id="total-calories"><span id="amount">304123</span> Cals</div>
         </div>
     </div>
     
@@ -25,7 +19,7 @@ include_once("views/header.tpl.php");
                   <tr  class="success">
                     <td>1</td>
                     <td>IT Dept </td>
-                    <td>10000 calories</td>
+                    <td>304123 calories</td>
                     
                   </tr>
                   <tr>
@@ -51,11 +45,4 @@ include_once("views/header.tpl.php");
             
         </div>
     </div>
-    
-    
-     
-        
-
-
-  </body>
-</html>
+</div>

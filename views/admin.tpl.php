@@ -1,19 +1,11 @@
-<?php
-include_once("views/globals.tpl.php");
-include_once("views/header.tpl.php");
-?>
-  <body>
-    <?php include_once("views/menu.tpl.php"); ?>
-    <br>	
-    <link rel="stylesheet" href="views/css/examples.css" type="text/css"></link>
-    <script language ="javascript" type="text/javascript" src="http://www.flotcharts.org/javascript/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="views/js/jquery.flot.js"></script>
-	<script language="javascript" type="text/javascript" src="http://www.flotcharts.org/javascript/flot.demo.js">	</script>
-	
-	
-</head>
-<body>
-  <div class="container" >
+<div class="page" content="admin">
+
+<link rel="stylesheet" href="views/css/examples.css" type="text/css"></link>
+<script language ="javascript" type="text/javascript" src="http://www.flotcharts.org/javascript/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="views/js/jquery.flot.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.flotcharts.org/javascript/flot.demo.js">	</script>
+
+<div class="container" >
     <div class="jumbotron">
         <center>JPMorgan/Mana Nutrition Partnership Summary </center>
         <p>Based on the partnership with Mana, <u>JP Morgan</u> saves approximately saves $<u>7 million dollars</u> a year. This symbiotic relationship with Mana helps to save money through reduced medical insurance costs, but more importantly helps save lives. </p>
@@ -62,9 +54,4 @@ include_once("views/header.tpl.php");
 		
 
 	</div>
-		
-		
-	
-	
-</body>
-</html>
+</div>

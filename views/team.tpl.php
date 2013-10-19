@@ -1,19 +1,26 @@
-<?php
-
-include_once("views/globals.tpl.php");
-include_once("views/header.tpl.php");
-
-?>
-  <body>
-
-   <?php include_once("views/menu.tpl.php"); ?>
-
-    <br>
+<div class="page" content="team">
     <div class="container" >
         <div class="jumbotron">
-            <div id="Team-Total-Calories"><span id="amount"> Total Team Calories Earned 3800</span> Cals</div>
+            <div id="Team-Total-Calories"><span id="amount"><span id="teamburn"><?php echo $totalteam; ?></span></span> Cals</div>
+            
+            <div class="row text-left">
+                <!-- Three columns here: team burnt, favorite activity, weekly cal, children saved, badges -->
+                <div class="col-md-4">
+                    Packets Earned: 
+                    <span id="packets-team"><?php echo $teampackets; ?></span>
+                </div>
+                <div class="col-md-4">
+                    Children Saved:
+                    <span id="children-team"><?php echo $teamchildren; ?></span>
+                </div>
+                <div class="col-md-4">
+                    Favorite Activity: 
+                    <span id="favact-team"><?php echo $teamfavorite; ?></span>
+                </div>
+            </div>
+            
         </div>
-        <!-- Two columns: Favorite Activity, Children saved-->
+        
     </div>
     
    <div class="row">
@@ -30,23 +37,23 @@ include_once("views/header.tpl.php");
                 <tbody>
                   <tr  class="success">
                     <td><center>1</center></td>
-                    <td><center></center></td>
+                    <td><center>Bill G</center></td>
                   </tr>
                   <tr>
                     <td><center>2</center></td>
-                    <td><center></center></td>
+                    <td><center>Steve Jobs</center></td>
                   </tr>
                   <tr>
                     <td><center>3</center></td>
-                    <td><center></center></td>
+                    <td><center>Woz</center></td>
                   </tr>
                   <tr  class="warning">
                     <td><center>4</center></td>
-                    <td><center></center></td>
+                    <td><center> Cook</center></td>
                   </tr>
                   <tr class="danger">
                     <td><center>5</center></td>
-                    <td><center></center> </td>
+                    <td><center>Steve B</center> </td>
                   </tr>
                 </tbody>
               </table>
@@ -105,9 +112,4 @@ include_once("views/header.tpl.php");
     
   
    </div>
-    
-
-
-
-  </body>
-</html>
+</div>
