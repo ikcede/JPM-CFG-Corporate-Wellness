@@ -101,6 +101,19 @@
                 //	mysql_close($con);
 		      ?>
         
+        <table class="table table-hover ">
+            <tbody>
+              <tr>
+                <td><center>Keep it Up!</center></td>
+              </tr>
+              <tr >
+                <td><center> Bill G ran 2 miles today</center></td>
+              </tr>
+              <tr >
+                <td><center>Hey we are in second place, lets go Kayaking this weekend!</center> </td>
+              </tr>
+            </tbody>
+          </table>
         
         
         

@@ -25,12 +25,12 @@
                     <span id="packets-personal"><?php echo $packets; ?></span>
                 </div>
                 <div class="col-md-8">
-                   Badges: <img src="http://i203.photobucket.com/albums/aa128/downtown630/flash.jpg" height="15" width="15">
-                   <img src="http://s3.amazonaws.com/commendablekids.com.prod/badges/56/large.png?1287263039" height="15" width="15">
-                   <img src="http://cdn.business2community.com/wp-content/uploads/2012/12/you-tried-star-resized-600.png" height="15" width="15">
-                   <img src="http://kleinletters.com/Blog/wp-content/uploads/2008/01/wwemblem.jpg" height="15" width="15">
-                   <img src="http://www.vectortemplates.com/raster/superman-logo-012.png" height="15" width="15">
-                    <img src="http://www.andersons.com/~/media/Andersons/Products/School-Awards/Buttons/Magnet-Buttons/9001BSM_0425/701--9001BSM_0425--Magnet-Button-Most-Improved--000.ashx?w=230&h=230&bc=FFFFFF" height="15" width="15">
+                   Badges: <img src="http://i203.photobucket.com/albums/aa128/downtown630/flash.jpg" height="15" width="15" title="FLASH">
+                   <img src="http://s3.amazonaws.com/commendablekids.com.prod/badges/56/large.png?1287263039" height="15" width="15" title="Great Job">
+                   <img src="http://cdn.business2community.com/wp-content/uploads/2012/12/you-tried-star-resized-600.png" height="15" width="15" title="Star for you!">
+                   <img src="http://kleinletters.com/Blog/wp-content/uploads/2008/01/wwemblem.jpg" height="15" width="15" title="Wonderwoman!">
+                   <img src="http://www.vectortemplates.com/raster/superman-logo-012.png" height="15" width="15" title="You are a superman!">
+                    <img src="http://www.andersons.com/~/media/Andersons/Products/School-Awards/Buttons/Magnet-Buttons/9001BSM_0425/701--9001BSM_0425--Magnet-Button-Most-Improved--000.ashx?w=230&h=230&bc=FFFFFF" height="15" width="15" title="Nice!">
                 </div>
             </div>
             
@@ -64,19 +64,19 @@
                   <tr class="success">
                     <td>3</td>
                     <td>Biking</td>
-                    <td>300 calories</td>
+                    <td>900 calories</td>
                     
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Walking</td>
-                    <td>50 calories</td>
+                    <td>500 calories</td>
                   
                   </tr>
                   <tr class="warning">
                     <td>5</td>
-                    <td>Swimming</td>
-                    <td>600 calories</td>
+                    <td>Breathing</td>
+                    <td>20 calories</td>
                   
                   </tr>
                   <tr>
@@ -86,8 +86,8 @@
                   </tr>
                   <tr class="danger">
                     <td>7</td>
-                    <td>Boxing </td>
-                    <td> 800 calories</td>
+                    <td>Blinking </td>
+                    <td> 8 calories</td>
                   </tr>
                 </tbody>
               </table>

@@ -1,4 +1,6 @@
 <?php
+
+include_once("ids.php");
  
 // Get data from server
 $totalpersonal = 1800;
