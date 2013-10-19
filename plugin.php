@@ -8,11 +8,38 @@ include_once("views/header.tpl.php");
 
     <hr>
     <center><h2><b> Plugins Connected </b> </h2></center>
-        
-    <table>
-    <tr> </tr>
-    <tr></tr>
-    </table>
+       
+    
+    <div class="container" >
+        <div class="jumbotron"> 
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th><center>Plugin Name </center></th>
+                <th><center>Status</center></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="success">
+                <td><center>Run Keeper</center></td>
+                <td><center> Connected</center></td>
+              </tr>
+              <tr >
+                <td><center>Nike Plus</center></td>
+                <td><center> Not Connected</center></td>
+              </tr>
+              <tr >
+                <td><center>Map My Run</center></td>
+                <td><center>Not Connected </center> </td>
+              </tr>
+              <tr >
+                <td><center>Map Fitness Pal </center></td>
+                <td><center>Not Connected </center> </td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
     
     
 

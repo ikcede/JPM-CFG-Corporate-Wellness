@@ -11,8 +11,9 @@ include_once("views/header.tpl.php");
     <br>
     <div class="container" >
         <div class="jumbotron">
-            <div id="Team Total-Calories"><span id="amount"> Total Team Calories Earned 3800</span> Cals</div>
+            <div id="Team-Total-Calories"><span id="amount"> Total Team Calories Earned 3800</span> Cals</div>
         </div>
+        <!-- Two columns: Favorite Activity, Children saved-->
     </div>
     
    <div class="row">
@@ -54,9 +55,55 @@ include_once("views/header.tpl.php");
     
     
     <div class="col-md-4"><b><center>Team Message Board</center></b>
+        <!-- take 5 most recent activity posts from the activity table -->
+        <!-- match the ID with the user's first name -->
+        <!-- find the teamID -->
+        <!-- only display those who's team ID match your team ID -->
+        
+        <?php
+            //connect to database
+            //get cur user's teamID
+            //create query
+            //query: Select A.activity, I.ID from activity, User.ID, T.teamID from JP WHERE
+                        
+                        
+                        
+              //  echo "<br/>
+                
+                //	<table border='1'>
+    	          //  <tr>
+    		        //    <td><b>Teammate</b></td>
+    		          //  <td><b>Update</b></td>
+    	            //</tr>";
+			            
+			          /**  
+			            while($row = mysql_fetch_array($result))
+            			{
+                			echo "<tr>";
+                			echo "<td>";
+                			echo $row['teammate'];
+                			echo "</td>";
+                			echo "<td>";
+                			echo $row['update'];
+                			echo "</td>";
+                			echo "</tr>";
+            			}
+            			echo "</table>";
+            			*/
+                //	}
+                //	mysql_close($con);
+		      ?>
+        
+        
+        
+        
+        
         
     </div>
     <div class="col-md-2"></div>
+    
+    
+  
    </div>
     
 

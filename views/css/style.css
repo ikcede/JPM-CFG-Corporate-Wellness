@@ -103,6 +103,7 @@ body {
 #header .dropdown-menu {
     left:auto;
     right:0;
+    min-width: 90px;
 }
 
 #header .dropdown-menu li a:hover {

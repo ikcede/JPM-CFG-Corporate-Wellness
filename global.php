@@ -3,9 +3,7 @@ include_once("views/globals.tpl.php");
 include_once("views/header.tpl.php");
 ?>
   <body>
-
     <?php include_once("views/menu.tpl.php"); ?>
-    
     <br>
     <div class="container" >
         <div class="jumbotron">

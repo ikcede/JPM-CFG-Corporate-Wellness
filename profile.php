@@ -24,6 +24,58 @@ include_once("views/header.tpl.php");
                     <th><center>Calories Burned</center></th>
                   </tr>
                 </thead>
+                
+                <?php
+                   // function getActivities($con)
+                    //{
+                    $con = mysql_connect("localhost","root","bitnami");
+                    //get UID for currently logged in user 
+                    // $curUID = 
+                    //$query = "SELECT activity.UID, activity.activity, caltable.calories FROM activity where activity.UID = '".$curUID."'";
+                    //$result = mysql_query($query) or die(mysql_error());
+		
+		            // Return results of Select
+	            	//return $result;
+                  //  }
+                //    if ($con){
+                  //      echo "GOOD CONNECTION<br/>";
+		                
+	                //    }
+                	//else{
+		            //echo "BAD SQL CONNECTION<br />";
+                    
+                    //mysql_select_db("activity", $con);
+                    //$result = getActivities($con);
+                    
+                    //echo "<br/>
+	                //	<table border='1'>
+			          ///  <tr>
+				         //   <td><b>Activity</b></td>
+				           // <td><b>Burned Calories</b></td>
+			            //</tr>";
+			            
+			          /**  
+			            while($row = mysql_fetch_array($result))
+            			{
+                			echo "<tr>";
+                			echo "<td>";
+                			echo $row['activity'];
+                			echo "</td>";
+                			echo "<td>";
+                			echo $row['calories'];
+                			echo "</td>";
+                			echo "</tr>";
+            			}
+            			echo "</table>";
+            			*/
+                //	}
+                //	mysql_close($con);
+		      ?>
+                    
+                
+                
+                
+                
                 <tbody>
                   <tr>
                     <td>1</td>

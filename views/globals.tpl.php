@@ -3,7 +3,7 @@
 // Controls everything in HEAD
 // Global definition across site
 $head = array(
-	"title" => "Corporate Wellness",
+	"title" => "ManaBurn",
 	// "base" => array(
 // 		"target" => "_blank",
 // 		"href"   => "http://localhost/"
