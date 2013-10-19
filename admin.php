@@ -4,5 +4,9 @@ include_once("views/globals.tpl.php");
 include_once("views/header.tpl.php");
 
 ?>
+  <body>
 
-<!-- Will eventually become the main page with everything included -->
+    <?php include_once("views/menu.tpl.php"); ?>
+    
+  </body>
+</html>

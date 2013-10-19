@@ -13,11 +13,14 @@ $head = array(
 	),
 	"css" => array(
 		"views/bootstrap/css/bootstrap.min.css",
-		"views/bootstrap/css/bootstrap-responsive.min.css"
+		"views/bootstrap/css/bootstrap-theme.min.css",
+		"views/css/profile.css",
+		"views/css/style.css"
 	),
 	"script" => array(
-		"http://code.jquery.com/jquery-latest.min.js",
-		"views/bootstrap/js/bootstrap.min.js"
+		"views/js/jquery.min.js",
+		"views/bootstrap/js/bootstrap.min.js",
+		"views/js/js.js"
 	),
 	// "favicon" => "path/to/favicon.ico",
 	"custom" => ""
